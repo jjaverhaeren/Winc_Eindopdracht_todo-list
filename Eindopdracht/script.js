@@ -126,6 +126,7 @@ const  eventHandlerNewTaskInput = async () => {
     let POSTbody = {description: newTaskInput, done: false}
     await postData(url, POSTbody);
     await buildDOM();
+    await clearInput();
 }
 
 const addTask = document.getElementById("add-task");

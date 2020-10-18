@@ -1,0 +1,108 @@
+body {
+  font-family: "Roboto", sans-serif;
+  /* text-decoration: line-through; */
+}
+
+main {
+    border: 2px solid rgb(24, 58, 131);
+    width: 306px;
+    background-color: rgb(235, 227, 227);
+}
+
+#app-header {
+    background-color: rgb(49, 99, 209);
+    color: white;
+    padding: 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#app-name {
+    margin: 10px;
+      /* border: 1px solid green; */
+    font-size: 1.2rem;
+    position: relative;
+    /* left: 50px; */
+    letter-spacing: 0.5rem;
+}
+
+#sub-title {
+    margin: 10px;
+    /* border: 1px solid green; */
+}
+
+#new-task-container {
+    margin: 2px;
+}
+
+#add-task {
+  background-color: rgb(38, 92, 209);
+  color: white;
+}
+
+#list-container {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: start;
+  padding: 0px;
+  width: auto;
+}
+
+section {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px 0px 5px;
+  margin: 2px;
+}
+
+ul {
+  list-style: none;
+  margin: 5px;
+}
+
+.todo-parent {
+    background-color: white;
+}
+
+li {
+  /* border: 1px solid blue; */
+  margin: 2px;
+  padding: 2px;
+
+}
+
+.trashcan {
+  width: 15px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.trashcan:hover {
+  cursor: pointer;
+}
+
+.todo-text {
+  /* border: 1px solid gray; */
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.todo-text_done {
+    /* border: 1px solid gray; */
+    text-align: left;
+    text-decoration: line-through;
+  }
+
+  #footer {
+    text-align: left;
+    width: auto;
+    margin: 5px 3px;
+    color: rgb(24, 58, 131);
+    font-weight: bold;
+  }

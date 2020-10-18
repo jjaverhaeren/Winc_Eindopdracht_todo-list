@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./api-client.js"></script>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <main>
+        <section id="app-header">
+            <h2 id="app-name">ToodLL</h2>
+            <h5 id="sub-title">gettin' shit done never was so much fun</h5>
+        </section>
+        
+        <div id="new-task-container" class="tasks-container">
+            <input type="text" id="new-task" class="tasks" placeholder="new task">
+            <button id="add-task">Add</button>
+        </div>
+        <div id="list-container">
+            <ul id="list-parent"></ul>
+        </div>
+    </main>
+    <footer id="footer"></footer>
+    
+</body>
+</html>
